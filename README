@@ -1,0 +1,20 @@
+
+These are the nethack 3.4.3 sources with the below patches applied:
+
+Death Explore - Offers player a chance to enter explore mode upon death
+
+Dump log - More detailed game logs
+
+Log Moves - Include moves in the logfile
+
+Dark Room - Offers option to have squares which can't be seen due to darkness coloured with a black period (.)
+
+Menucolor - Colour menu items by matching wildcards from config
+
+Simple Mail - Allow mail to be sent into game from dgamelaunch
+
+Status Colors - HP, PW and conditions (Blindness, Stunned etc) can be colored from config
+
+Paranoid - Adds option to require some questions to be answered with yes rather than just a y
+
+Sortloot - Improved inventory view
