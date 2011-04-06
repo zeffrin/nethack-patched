@@ -1,0 +1,53 @@
+OPTIONS=!showexp,!showscore,time,color,autopickup,pickup_types:$
+OPTIONS=eight_bit_tty,autoquiver,!cmdassist
+OPTIONS=autodig,fruit:snickers bar,boulder:0,hilite_pet,number_pad
+OPTIONS=!rest_on_space,safe_pet,lit_corridor
+OPTIONS=sortpack,tombstone,toptenwin,verbose,prayconfirm
+
+OPTIONS=menustyle:Full,msghistory:20,msg_window:reversed
+
+OPTIONS=suppress_alert:3.4.3
+
+OPTIONS=windowtype:tty
+#OPTIONS=DECgraphics
+OPTIONS=IBMgraphics
+
+OPTIONS=death_explore
+OPTIONS=!paranoid_hit,!paranoid_quit,!paranoid_remove
+OPTIONS=sortloot:full
+
+# Menu Colors
+OPTIONS=menucolors
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* (being worn)"=red&underline
+MENUCOLOR=" smoky potion"=lightcyan
+MENUCOLOR=" wand .*cancellation"=white&bold
+
+# Status Colors
+OPTIONS=statuscolors
+# HP
+STATUSCOLOR=hp%100=green,hp%66=yellow,hp%50=orange
+STATUSCOLOR=hp%33=red&bold,hp%15:red&inverse,hp%0:red&inverse&blink
+# Pw
+STATUSCOLOR=pw%100=green,pw%66=yellow,pw%50:orange,pw%33=red&bold
+
+# Carry
+STATUSCOLOR=burdened:yellow,stressed:orange,strained:red&bold
+STATUSCOLOR=overtaxed:red&inverse,overloaded:red&inverse&blink
+# Hunger
+STATUSCOLOR=satiated:yellow,hungry:orange,weak:red&bold
+STATUSCOLOR=fainting:red&inverse,fainted:red&inverse&blink
+# Mental
+STATUSCOLOR=hallu:yellow,conf:orange,stun:red&bold
+# Health
+STATUSCOLOR=ill:red&inverse,foodpois:red&inverse,slime:red&inverse
+# Other
+STATUSCOLOR=held:red&inverse,blind:red&inverse
+
+# For more information on what you can set in your nethackrc file, refer to:
+#   http://www.nethack.org/v343/Guidebook.html#_TOCentry_42
+# Happy hacking!
+
